@@ -19,5 +19,30 @@ namespace BookAggregation_書籍集約 {
         +QuantityAvailable 在庫数
         +Status ステータス
     }
+
+    %% 2. 属性の定義
+    class BookId {
+        string value
+    }
+
+    class Title_タイトル {
+        string value
+    }
+
+    class Price_価格 {
+        +number value
+    }
+
+    class Status_ステータス {
+        +string value
+    }
+
+    class StockId {
+        +string value
+    }
+
+    class QuantityAvailable_在庫数 {
+        +number value
+    }
 }
 ```
