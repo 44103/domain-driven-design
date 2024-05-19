@@ -73,4 +73,15 @@ note for Stock_在庫 "
 note for Status_ステータス "
 在庫のステータスは、 InStock (在庫あり), LowStock (残りわずか),
 OutOfStock (在庫切れ)の3つ"
+
+%% 4. 関連性の定義
+Book_書籍 -- "1..1" Stock_在庫
+
+Book_書籍 *-- BookId
+Book_書籍 *-- Title_タイトル
+Book_書籍 *-- Price_価格
+
+Stock_在庫 *-- StockId
+Stock_在庫 *-- QuantityAvailable_在庫数
+Stock_在庫 *-- Status_ステータス
 ```
