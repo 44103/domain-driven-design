@@ -10,6 +10,7 @@
     "@types/lodash": "^4.17.4",
     "@types/node": "^20.12.12",
     "jest": "^29.7.0",
+    "prisma": "^5.14.0",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
@@ -20,6 +21,7 @@
     "test": "npx jest"
   },
   "dependencies": {
+    "@prisma/client": "^5.14.0",
     "lodash": "^4.17.21",
     "nanoid": "^5.0.7"
   }
