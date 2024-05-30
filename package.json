@@ -6,6 +6,7 @@
   "author": "Kenko Yoshitomi <kyoshitomi.cursor@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.17.4",
     "@types/node": "^20.12.12",
@@ -18,10 +19,12 @@
   },
   "scripts": {
     "dev": "npx ts-node src/xxxxx.ts",
-    "test": "npx jest"
+    "test": "npx jest",
+    "serve": "npx ts-node src/Presentation/Express/index.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.14.0",
+    "express": "^4.19.2",
     "lodash": "^4.17.21",
     "nanoid": "3"
   }
