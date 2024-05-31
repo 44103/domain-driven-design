@@ -10,6 +10,7 @@
     "@types/jest": "^29.5.12",
     "@types/lodash": "^4.17.4",
     "@types/node": "^20.12.12",
+    "dependency-cruiser": "^16.3.2",
     "jest": "^29.7.0",
     "prisma": "^5.14.0",
     "ts-jest": "^29.1.2",
@@ -20,7 +21,8 @@
   "scripts": {
     "dev": "npx ts-node src/xxxxx.ts",
     "test": "npx jest",
-    "serve": "npx ts-node src/Presentation/Express/index.ts"
+    "serve": "npx ts-node src/Presentation/Express/index.ts",
+    "dep": "npx depcruise src"
   },
   "dependencies": {
     "@prisma/client": "^5.14.0",
